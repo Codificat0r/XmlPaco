@@ -1,8 +1,13 @@
 package com.example.xml;
 
-/**
- * Created by usuario on 4/12/17.
- */
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
-public class Creacion {
+public class Creacion extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_creacion);
+    }
 }

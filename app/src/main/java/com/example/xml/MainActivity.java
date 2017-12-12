@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import org.xmlpull.v1.XmlPullParser;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Button btnPartes;
